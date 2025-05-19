@@ -106,10 +106,10 @@ export default function ProductsSection() {
                   <p className="text-gray-600 dark:text-gray-300">{product.description}</p>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                  {/*<Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
                     <ShoppingBasket className="mr-2 h-4 w-4" />
                     Add to Cart
-                  </Button>
+                  </Button>*/}
                 </CardFooter>
               </Card>
             </motion.div>

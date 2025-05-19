@@ -55,7 +55,7 @@ export default function AboutSection() {
           >
             <h2 className="text-3xl md:text-4xl font-playfair font-bold text-gray-800 dark:text-white mb-6">Our Farm Story</h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-              Founded in 2005, our family farm sits on 20 acres of beautiful countryside. We started with just a few dozen chickens and a passion for producing the freshest, most nutritious eggs possible.
+              Founded in 2025, our family farm sits on 20 acres of beautiful countryside. We started with just a few dozen chickens and a passion for producing the freshest, most nutritious eggs possible.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
               Today, we're proud to care for over 1,000 happy hens who produce eggs with brilliant orange yolks and exceptional flavor. Our mission remains the same: to provide families with eggs from hens raised with care, compassion, and respect for nature.

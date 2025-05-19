@@ -3,19 +3,24 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import logo from "@/public/istockphoto-1129897309-1024x1024.jpg";
+import logo2 from "@/public/court-Jo2tCHAy-8E-unsplash.jpg";
+import logo3 from "@/public/fish.jpg";
+import logo4 from "@/public/egg5.jpg";
+import Image from 'next/image';
 
 const galleryImages = [
   {
-    src: "https://images.pexels.com/photos/236889/pexels-photo-236889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    src: logo,
     alt: "Happy hens in the farm yard",
     width: "full" // full width image
   },
   {
-    src: "https://images.pexels.com/photos/164507/pexels-photo-164507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    src: logo4,
     alt: "Free-range chickens on grass",
   },
   {
-    src: "https://images.pexels.com/photos/6248767/pexels-photo-6248767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    src: logo3,
     alt: "Freshly collected eggs in basket",
   },
   {
@@ -23,7 +28,7 @@ const galleryImages = [
     alt: "Farm landscape",
   },
   {
-    src: "https://images.pexels.com/photos/4813361/pexels-photo-4813361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    src: logo2,
     alt: "Egg sorting and packaging",
   }
 ];
@@ -61,10 +66,12 @@ export default function GallerySection() {
               whileHover={{ scale: 1.02 }}
               onClick={() => setSelectedImage(image.src)}
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-64 object-cover transition-all duration-500 hover:scale-110"
+                width ="450"
+                height={'450'}
               />
             </motion.div>
           ))}
@@ -87,10 +94,12 @@ export default function GallerySection() {
               >
                 <X className="h-6 w-6" />
               </button>
-              <img
+              <Image
                 src={selectedImage}
                 alt="Enlarged view"
                 className="max-h-[90vh] w-auto mx-auto object-contain"
+                width ="450"
+                height={'450'}
               />
             </motion.div>
           </div>

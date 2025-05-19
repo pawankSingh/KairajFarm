@@ -40,7 +40,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="text-2xl font-playfair font-bold text-amber-700 dark:text-amber-400">
-            Kairaj <span className="text-green-600 dark:text-green-400">Eggs</span>
+            Kairaj <span className="text-green-600 dark:text-green-400">Farm</span>
           </Link>
         </div>
 
@@ -60,10 +60,10 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+         {/* <Button className="bg-amber-600 hover:bg-amber-700 text-white">
             <ShoppingBasket className="mr-2 h-4 w-4" />
             Shop Now
-          </Button>
+          </Button>*/}
         </div>
 
         {/* Mobile menu button */}

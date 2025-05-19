@@ -28,7 +28,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Farm Fresh Eggs From Kairaj Farm
+            Farm Fresh Eggs and Fish From Kairaj Farm
           </motion.h1>
           <motion.p 
             className="text-xl text-white/90 mb-8"
