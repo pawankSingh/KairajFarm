@@ -34,7 +34,7 @@ const galleryImages = [
 ];
 
 export default function GallerySection() {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<any | null>(null);
 
   return (
     <section id="gallery" className="py-20 bg-white dark:bg-gray-900">
